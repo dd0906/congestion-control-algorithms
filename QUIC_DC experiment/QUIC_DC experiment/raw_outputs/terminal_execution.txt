@@ -1,0 +1,103 @@
+======================================================================
+QUIC-DC Simulation  (arXiv:2507.00896  --  Mascolo et al.)
+Link: 25 Mbps  | RTT_min: 50 ms | File: 100 MB
+BDP  = 152.6 KB  | Step = 50 ms/RTT
+======================================================================
+Buffer       Algorithm                      Goodput    Med-RTT    Loss%
+------------------------------------------------------------------------
+0.5BDP       QUIC-DC (10%)                   23.45M      75.0ms   0.001%  (3ms sim)
+0.5BDP       QUIC-DC (20%)                   23.45M      75.0ms   0.001%  (3ms sim)
+0.5BDP       QUIC-DC (50%)                   23.45M      75.0ms   0.001%  (4ms sim)
+0.5BDP       QUIC-DC (80%)                   23.45M      75.0ms   0.001%  (5ms sim)
+0.5BDP       Cubic                            8.09M      50.0ms   0.004%  (9ms sim)
+0.5BDP       BBRv2                           24.97M      75.0ms  43.087%  (4ms sim)
+0.5BDP       NewReno                         15.39M      50.0ms   0.001%  (5ms sim)
+0.5BDP       Westwood+                       23.31M      50.0ms   0.004%  (3ms sim)
+
+1.0BDP       QUIC-DC (10%)                   23.45M     100.0ms   0.017%  (3ms sim)
+1.0BDP       QUIC-DC (20%)                   23.45M     100.0ms   0.017%  (2ms sim)
+1.0BDP       QUIC-DC (50%)                   23.45M     100.0ms   0.017%  (2ms sim)
+1.0BDP       QUIC-DC (80%)                   23.45M     100.0ms   0.017%  (2ms sim)
+1.0BDP       Cubic                            8.11M      50.0ms   0.003%  (5ms sim)
+1.0BDP       BBRv2                           24.97M     100.0ms  43.044%  (1ms sim)
+1.0BDP       NewReno                         15.86M      50.0ms   0.017%  (2ms sim)
+1.0BDP       Westwood+                       23.43M      69.0ms   0.021%  (1ms sim)
+
+2.0BDP       QUIC-DC (10%)                   23.45M     150.0ms   0.022%  (2ms sim)
+2.0BDP       QUIC-DC (20%)                   23.45M     150.0ms   0.022%  (2ms sim)
+2.0BDP       QUIC-DC (50%)                   23.45M     150.0ms   0.022%  (2ms sim)
+2.0BDP       QUIC-DC (80%)                   23.45M     150.0ms   0.029%  (2ms sim)
+2.0BDP       Cubic                            8.14M      50.0ms   0.003%  (5ms sim)
+2.0BDP       BBRv2                           24.97M     150.0ms  42.960%  (2ms sim)
+2.0BDP       NewReno                         16.43M      50.0ms   0.022%  (2ms sim)
+2.0BDP       Westwood+                       23.45M     150.0ms   0.028%  (2ms sim)
+
+4.0BDP       QUIC-DC (10%)                   23.45M     250.0ms   0.008%  (2ms sim)
+4.0BDP       QUIC-DC (20%)                   23.45M     250.0ms   0.008%  (2ms sim)
+4.0BDP       QUIC-DC (50%)                   23.45M     250.0ms   0.015%  (2ms sim)
+4.0BDP       QUIC-DC (80%)                   23.45M     250.0ms   0.015%  (2ms sim)
+4.0BDP       Cubic                            8.17M      50.0ms   0.015%  (4ms sim)
+4.0BDP       BBRv2                           24.97M     250.0ms  42.791%  (2ms sim)
+4.0BDP       NewReno                         17.23M      50.0ms   0.008%  (2ms sim)
+4.0BDP       Westwood+                       23.45M     250.0ms   0.014%  (1ms sim)
+
+Data written to: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\raw_outputs
+Done.
+Loading summary data �
+Generating figures �
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig1_rtt_cdf_4BDP.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig2_rtt_cdf_2BDP.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig3_throughput_time_4BDP.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig4_throughput_time_2BDP.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig5_goodput_loss_4BDP.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig6_goodput_loss_2BDP.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig7_cwnd_dynamics_2BDP.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig8_loss_vs_buffer.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig9_goodput_vs_buffer.png
+  Saved: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs\fig10_owqd_time_4BDP.png
+
+10 figures saved to: C:\Users\PRAVEENA\quic_dc_experiment\scripts\..\graphs
+==============================================================
+  QUIC-DC Experiment Runner
+  Based on: arXiv:2507.00896
+==============================================================
+
+Python: 3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]
+Working directory: C:\Users\PRAVEENA\quic_dc_experiment\scripts
+
+============================================================
+  Step 1/2: Running QUIC-DC simulation
+============================================================
+
+  [OK] Completed in 0.2s
+
+============================================================
+  Step 2/2: Generating graphs
+============================================================
+
+  [OK] Completed in 2.6s
+
+============================================================
+  Summary (Buffer = 4x BDP, 25 Mbps link, RTT_min=50ms)
+  Matching paper Table 1 scenario
+============================================================
+
+Algorithm                    Goodput    Med RTT    P95 RTT      Loss%
+----------------------------------------------------------------------
+  QUIC-DC (10%)               23.45      250.0      250.0     0.0083
+  QUIC-DC (20%)               23.45      250.0      250.0     0.0083
+  QUIC-DC (50%)               23.45      250.0      250.0     0.0152
+  QUIC-DC (80%)               23.45      250.0      250.0     0.0152
+  Cubic                        8.17       50.0       50.0     0.0155
+  BBRv2                       24.97      250.0      250.0    42.7907
+  NewReno                     17.23       50.0       50.0     0.0084
+  Westwood+                   23.45      250.0      250.0     0.0138
+
+  Units: Goodput=Mbps, RTT=ms, Loss=%
+
+============================================================
+  All done in 2.8s
+  Raw data:  quic_dc_experiment/raw_outputs/
+  Graphs:    quic_dc_experiment/graphs/
+============================================================
+
