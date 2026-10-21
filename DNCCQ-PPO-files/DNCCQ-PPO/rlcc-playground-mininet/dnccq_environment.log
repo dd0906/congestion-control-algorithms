@@ -1,0 +1,36 @@
+
+*** Init Redis 
+
+*** Init Mininet Topo 
+*** Creating network
+*** Adding controller
+*** Adding hosts:
+c0 c1 c2 ser1 ser2 
+*** Adding switches:
+sw1 sw2 
+*** Adding links:
+(c1, sw1) (c2, sw2) (sw1, ser1) Traceback (most recent call last):
+  File "/home/shruthiii/DNCCQ-PPO/rlcc-playground-mininet/train_env_q.py", line 17, in <module>
+    Exp = RlccMininet(map_c_2_rlcc_flag, XQUIC_PATH=XQUIC_PATH)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shruthiii/DNCCQ-PPO/rlcc-playground-mininet/core/rlccenv.py", line 63, in __init__
+    self.network = Mininet(topo, waitConnected=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/mininet/net.py", line 178, in __init__
+    self.build()
+  File "/usr/lib/python3/dist-packages/mininet/net.py", line 508, in build
+    self.buildFromTopo( self.topo )
+  File "/usr/lib/python3/dist-packages/mininet/net.py", line 495, in buildFromTopo
+    self.addLink( **params )
+  File "/usr/lib/python3/dist-packages/mininet/net.py", line 406, in addLink
+    link = cls( node1, node2, **options )
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/mininet/link.py", line 456, in __init__
+    self.makeIntfPair( intfName1, intfName2, addr1, addr2,
+  File "/usr/lib/python3/dist-packages/mininet/link.py", line 501, in makeIntfPair
+    return makeIntfPair( intfname1, intfname2, addr1, addr2, node1, node2,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/mininet/util.py", line 270, in makeIntfPair
+    raise Exception( "Error creating interface pair (%s,%s): %s " %
+Exception: Error creating interface pair (sw1-eth3,sw2-eth3): RTNETLINK answers: File exists
+ 
