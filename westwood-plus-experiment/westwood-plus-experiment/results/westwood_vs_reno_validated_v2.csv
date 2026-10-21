@@ -1,0 +1,7 @@
+timestamp,algorithm,trial,configured_bandwidth_mbps,one_way_delay_ms,queue_packets_per_link,duration_seconds,client_sender_algorithm,client_receiver_algorithm,sender_bytes,receiver_bytes,byte_difference,sender_mbps,receiver_mbps,retransmissions,sender_seconds,receiver_seconds,client_json_valid,server_json_valid,status
+2026-10-20T01:14:29,westwood,1,25,25,420,20,,,52982824,41287680,11695144,21.1923,16.4101,0,20.000817,20.127958,True,True,CHECK_REQUIRED
+2026-10-20T01:14:53,reno,1,25,25,420,20,,,69819184,59375616,10443568,27.9273,23.2521,0,20.000253,20.428443,True,True,CHECK_REQUIRED
+2026-10-20T01:15:17,westwood,2,25,25,420,20,,,54090544,42336256,11754288,21.6343,16.8329,0,20.001773,20.120751,True,True,CHECK_REQUIRED
+2026-10-20T01:15:41,reno,2,25,25,420,20,,,69819184,59375616,10443568,27.9231,23.2536,0,20.003294,20.427131,True,True,CHECK_REQUIRED
+2026-10-20T01:16:04,westwood,3,25,25,420,20,,,54090544,42467328,11623216,21.6335,16.8637,0,20.002513,20.14617,True,True,CHECK_REQUIRED
+2026-10-20T01:16:28,reno,3,25,25,420,20,,,69819184,59375616,10443568,27.9274,23.2539,0,20.000218,20.426875,True,True,CHECK_REQUIRED
