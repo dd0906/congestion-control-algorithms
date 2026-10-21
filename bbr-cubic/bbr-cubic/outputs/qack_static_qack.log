@@ -1,0 +1,38 @@
+[qack_proxy] mode=static interval=1024 iface=sw-se
+/usr/local/lib/python3.10/dist-packages/scapy/sendrecv.py:485: SyntaxWarning: 'iface' has no effect on L3 I/O send(). For multicast/link-local see https://scapy.readthedocs.io/en/latest/usage.html#multicast
+  warnings.warn(
+[qack_proxy] QACK #1 -> conn0 (10.0.1.2) counters={0: 684, 1: 207, 2: 133}
+[qack_proxy] QACK #2 -> conn0 (10.0.1.2) counters={0: 622, 1: 193, 2: 209}
+[qack_proxy] QACK #3 -> conn0 (10.0.1.2) counters={0: 674, 1: 183, 2: 167}
+[qack_proxy] QACK #4 -> conn0 (10.0.1.2) counters={0: 684, 1: 195, 2: 145}
+[qack_proxy] QACK #5 -> conn0 (10.0.1.2) counters={0: 694, 1: 198, 2: 132}
+[qack_proxy] QACK #6 -> conn0 (10.0.1.2) counters={0: 692, 1: 199, 2: 133}
+[qack_proxy] QACK #7 -> conn0 (10.0.1.2) counters={0: 693, 1: 198, 2: 133}
+[qack_proxy] QACK #8 -> conn0 (10.0.1.2) counters={0: 620, 1: 214, 2: 190}
+[qack_proxy] QACK #9 -> conn0 (10.0.1.2) counters={0: 661, 1: 203, 2: 160}
+[qack_proxy] QACK #10 -> conn0 (10.0.1.2) counters={0: 672, 1: 212, 2: 140}
+[qack_proxy] QACK #11 -> conn0 (10.0.1.2) counters={0: 677, 1: 207, 2: 140}
+[qack_proxy] QACK #12 -> conn0 (10.0.1.2) counters={0: 684, 1: 208, 2: 132}
+[qack_proxy] QACK #13 -> conn0 (10.0.1.2) counters={0: 681, 1: 207, 2: 136}
+[qack_proxy] QACK #14 -> conn0 (10.0.1.2) counters={0: 585, 1: 201, 2: 238}
+[qack_proxy] QACK #15 -> conn0 (10.0.1.2) counters={0: 604, 1: 184, 2: 236}
+[qack_proxy] QACK #16 -> conn0 (10.0.1.2) counters={0: 642, 1: 217, 2: 165}
+[qack_proxy] QACK #17 -> conn0 (10.0.1.2) counters={0: 668, 1: 213, 2: 143}
+[qack_proxy] QACK #18 -> conn0 (10.0.1.2) counters={0: 676, 1: 206, 2: 142}
+[qack_proxy] QACK #19 -> conn0 (10.0.1.2) counters={0: 680, 1: 206, 2: 138}
+[qack_proxy] QACK #20 -> conn0 (10.0.1.2) counters={0: 647, 1: 217, 2: 160}
+[qack_proxy] QACK #21 -> conn0 (10.0.1.2) counters={0: 452, 1: 262, 2: 310}
+[qack_proxy] QACK #22 -> conn0 (10.0.1.2) counters={0: 203, 1: 395, 2: 426}
+[qack_proxy] QACK #23 -> conn0 (10.0.1.2) counters={0: 183, 1: 506, 2: 335}
+[qack_proxy] QACK #24 -> conn0 (10.0.1.2) counters={0: 151, 1: 564, 2: 309}
+[qack_proxy] QACK #25 -> conn0 (10.0.1.2) counters={0: 146, 1: 597, 2: 281}
+[qack_proxy] QACK #26 -> conn0 (10.0.1.2) counters={0: 147, 1: 607, 2: 270}
+[qack_proxy] QACK #27 -> conn0 (10.0.1.2) counters={0: 139, 1: 587, 2: 298}
+[qack_proxy] QACK #28 -> conn0 (10.0.1.2) counters={0: 89, 1: 650, 2: 285}
+[qack_proxy] QACK #29 -> conn0 (10.0.1.2) counters={0: 102, 1: 646, 2: 276}
+[qack_proxy] QACK #30 -> conn0 (10.0.1.2) counters={0: 84, 1: 666, 2: 274}
+[qack_proxy] QACK #31 -> conn0 (10.0.1.2) counters={0: 83, 1: 657, 2: 284}
+[qack_proxy] QACK #32 -> conn0 (10.0.1.2) counters={0: 117, 1: 634, 2: 273}
+[qack_proxy] QACK #33 -> conn0 (10.0.1.2) counters={0: 113, 1: 620, 2: 291}
+[qack_proxy] QACK #34 -> conn0 (10.0.1.2) counters={0: 122, 1: 627, 2: 275}
+[qack_proxy] QACK #35 -> conn0 (10.0.1.2) counters={0: 151, 1: 606, 2: 267}

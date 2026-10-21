@@ -1,0 +1,14 @@
+-----------------------------------------------------------
+Server listening on 6201
+-----------------------------------------------------------
+Accepted connection from 10.2.0.2, port 60462
+[  5] local 10.2.2.2 port 6201 connected to 10.2.0.2 port 60468
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.53   sec   768 KBytes  4.12 Mbits/sec                  
+[  5]   1.53-2.91   sec   384 KBytes  2.27 Mbits/sec                  
+[  5]   2.91-4.51   sec   256 KBytes  1.31 Mbits/sec                  
+[  5]   4.51-8.01   sec   256 KBytes   600 Kbits/sec                  
+[  5]   8.01-9.25   sec   128 KBytes   843 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-9.25   sec  1.75 MBytes  1.59 Mbits/sec                  receiver

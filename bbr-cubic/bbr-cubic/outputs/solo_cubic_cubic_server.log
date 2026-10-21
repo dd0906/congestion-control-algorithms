@@ -1,0 +1,30 @@
+-----------------------------------------------------------
+Server listening on 6202
+-----------------------------------------------------------
+Accepted connection from 10.2.1.2, port 56366
+[  5] local 10.2.2.2 port 6202 connected to 10.2.1.2 port 56374
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.14   sec  1.25 MBytes  9.18 Mbits/sec                  
+[  5]   1.14-2.13   sec  1.12 MBytes  9.57 Mbits/sec                  
+[  5]   2.13-3.12   sec  1.12 MBytes  9.56 Mbits/sec                  
+[  5]   3.12-4.21   sec  1.25 MBytes  9.57 Mbits/sec                  
+[  5]   4.21-5.20   sec  1.12 MBytes  9.54 Mbits/sec                  
+[  5]   5.20-6.19   sec  1.12 MBytes  9.57 Mbits/sec                  
+[  5]   6.19-7.20   sec   768 KBytes  6.23 Mbits/sec                  
+[  5]   7.20-8.16   sec  1.50 MBytes  13.1 Mbits/sec                  
+[  5]   8.16-9.15   sec  1.12 MBytes  9.55 Mbits/sec                  
+[  5]   9.15-10.13  sec  1.12 MBytes  9.57 Mbits/sec                  
+[  5]  10.13-11.12  sec  1.12 MBytes  9.55 Mbits/sec                  
+[  5]  11.12-12.22  sec  1.25 MBytes  9.57 Mbits/sec                  
+[  5]  12.22-13.20  sec  1.12 MBytes  9.57 Mbits/sec                  
+[  5]  13.20-14.19  sec  1.12 MBytes  9.56 Mbits/sec                  
+[  5]  14.19-15.18  sec  1.12 MBytes  9.57 Mbits/sec                  
+[  5]  15.18-16.16  sec  1.12 MBytes  9.56 Mbits/sec                  
+[  5]  16.16-17.15  sec  1.12 MBytes  9.55 Mbits/sec                  
+[  5]  17.15-18.14  sec  1.12 MBytes  9.57 Mbits/sec                  
+[  5]  18.14-19.13  sec  1.12 MBytes  9.56 Mbits/sec                  
+[  5]  19.13-20.11  sec  1.12 MBytes  9.56 Mbits/sec                  
+[  5]  20.11-20.44  sec   384 KBytes  9.58 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-20.44  sec  23.2 MBytes  9.54 Mbits/sec                  receiver

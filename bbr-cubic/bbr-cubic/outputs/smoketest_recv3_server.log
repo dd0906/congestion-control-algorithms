@@ -1,0 +1,16 @@
+-----------------------------------------------------------
+Server listening on 5203
+-----------------------------------------------------------
+Accepted connection from 10.0.0.2, port 32850
+[  5] local 10.0.3.2 port 5203 connected to 10.0.0.2 port 32866
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.24   sec  1.25 MBytes  8.44 Mbits/sec                  
+[  5]   1.24-2.84   sec   512 KBytes  2.63 Mbits/sec                  
+[  5]   2.84-4.47   sec   256 KBytes  1.29 Mbits/sec                  
+[  5]   4.47-5.73   sec   256 KBytes  1.66 Mbits/sec                  
+[  5]   5.73-7.29   sec   256 KBytes  1.35 Mbits/sec                  
+[  5]   7.29-9.28   sec   256 KBytes  1.05 Mbits/sec                  
+[  5]   9.28-10.55  sec   128 KBytes   825 Kbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-10.55  sec  2.88 MBytes  2.28 Mbits/sec                  receiver

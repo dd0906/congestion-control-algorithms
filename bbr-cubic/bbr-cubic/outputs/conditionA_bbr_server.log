@@ -1,0 +1,26 @@
+-----------------------------------------------------------
+Server listening on 6201
+-----------------------------------------------------------
+Accepted connection from 10.2.0.2, port 34746
+[  5] local 10.2.2.2 port 6201 connected to 10.2.0.2 port 34760
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.50   sec   896 KBytes  4.90 Mbits/sec                  
+[  5]   1.50-2.69   sec   384 KBytes  2.64 Mbits/sec                  
+[  5]   2.69-3.97   sec   256 KBytes  1.64 Mbits/sec                  
+[  5]   3.97-6.05   sec   256 KBytes  1.01 Mbits/sec                  
+[  5]   6.05-10.33  sec   256 KBytes   491 Kbits/sec                  
+[  5]  10.33-14.19  sec   256 KBytes   543 Kbits/sec                  
+[  5]  14.19-16.18  sec   256 KBytes  1.05 Mbits/sec                  
+[  5]  16.18-18.47  sec   384 KBytes  1.38 Mbits/sec                  
+[  5]  18.47-19.85  sec   256 KBytes  1.52 Mbits/sec                  
+[  5]  19.85-21.13  sec   256 KBytes  1.64 Mbits/sec                  
+[  5]  21.13-22.98  sec   384 KBytes  1.70 Mbits/sec                  
+[  5]  22.98-24.16  sec   256 KBytes  1.78 Mbits/sec                  
+[  5]  24.16-26.16  sec   384 KBytes  1.57 Mbits/sec                  
+[  5]  26.16-27.77  sec   512 KBytes  2.61 Mbits/sec                  
+[  5]  27.77-28.75  sec   256 KBytes  2.15 Mbits/sec                  
+[  5]  28.75-29.64  sec   256 KBytes  2.35 Mbits/sec                  
+[  5]  29.64-30.51  sec   256 KBytes  2.40 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-30.51  sec  5.62 MBytes  1.55 Mbits/sec                  receiver

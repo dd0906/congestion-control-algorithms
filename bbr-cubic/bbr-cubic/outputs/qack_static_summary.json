@@ -1,0 +1,8 @@
+{
+  "scenario": "qack_static",
+  "n_samples": 120,
+  "split_s": 60,
+  "avg_fairness_index_overall": 0.6344165223689301,
+  "avg_fairness_index_pre_split": 0.632156740534852,
+  "avg_fairness_index_post_split": 0.636602212995333
+}

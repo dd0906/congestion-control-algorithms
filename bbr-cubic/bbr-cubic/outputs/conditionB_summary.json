@@ -1,0 +1,10 @@
+{
+  "label": "conditionB",
+  "rate_mbit": 5,
+  "delay_ms": 50,
+  "avg_bbr_mbps": 1.7703241882395158,
+  "avg_cubic_mbps": 3.8200003754438767,
+  "avg_fairness_index": 0.6304265088895312,
+  "bbr_retransmits": 12,
+  "cubic_retransmits": 53
+}
