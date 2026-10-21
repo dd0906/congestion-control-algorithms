@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ build outputs and static/shared libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.la
+*.lai
+
+# Executables & binary artifacts
+test_client
+test_server
+*.exe
+*.out
+*.app
+
+# Large raw simulation dumps & traces
+dump_*/
+dump_fairness/
+dump_burst/
+dump_workload/
+*.pcap
+*.pcapng
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Python packaging & virtual environments
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
